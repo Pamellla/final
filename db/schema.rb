@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_11_26_041453) do
   create_table "apartments", force: :cascade do |t|
     t.integer "number"
     t.text "ref"
-    t.datetime "created_at", precision: 6, null: false
+    t.datetime "creatr_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
